@@ -1,0 +1,27 @@
+{
+    "name": "aunited/ldap9",
+    "description": "LDAP Phonebook",
+    "license": "MIT",
+    "homepage": "https://github.com/DragonZX/ldap-nine",
+    "keywords": ["ldap", "users","phonebook"],
+    "authors": [
+        {
+            "name": "Vitaliy Zhukov",
+            "email": "dragonzx@yandex.com",
+            "homepage": "http://aunited.ru/",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php":">=7.2",
+        "mpdf/mpdf": "^7.1",
+        "fabiang/xmpp": "^0.7.0",
+        "ext-mbstring": "*",
+        "ext-ldap": "*",
+        "ext-gd": "*",
+        "ext-xml": "*",
+        "ext-zip": "*",
+        "ext-gettext": "*",
+        "ext-iconv": "*"
+    }
+}
