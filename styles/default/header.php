@@ -24,7 +24,7 @@
                     Sorting
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#"><?php echo _("By alfabet"); ?></a>
+                    <a class="dropdown-item" href="#"><?php echo _("By alphabet"); ?></a>
                     <a class="dropdown-item" href="#"><?php echo _("By department"); ?></a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"><?php echo _("Newbies");?></a>
