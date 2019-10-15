@@ -1,4 +1,5 @@
 <?php
+# HowTo https://github.com/DragonZX/ldap-nine/wiki/Configuration-files
 # Base external MySQL DB Config
 $dbtype="MYSQL";
 $dbhost="localhost";

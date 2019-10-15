@@ -1,4 +1,5 @@
 <?php
+# HowTo https://github.com/DragonZX/ldap-nine/wiki/Configuration-files
 # Engine Options
 $ENGINE_debug = true;
 $ENGINE_baseurl = "#";
