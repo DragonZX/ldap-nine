@@ -1,1 +1,19 @@
-@import url(../../../styles/default/css/main.css);
+@import url(../../../library/iface/css/main.css);
+.navbar-brand{
+    width: 100px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #eeeeee;
+}
+#copyright{
+    color: #111;
+    padding-left: 20px;
+    float: left;
+    text-shadow: #0b2e13;
+
+}
