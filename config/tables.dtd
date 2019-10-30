@@ -1,0 +1,16 @@
+<!ELEMENT params (table|fields)*>
+<!ELEMENT table (colomn)*>
+<!ATTLIST table
+        heading CDATA #REQUIRED
+        name CDATA #REQUIRED>
+<!ELEMENT colomn (#PCDATA)>
+<!ATTLIST colomn
+        display CDATA #REQUIRED
+        name CDATA #REQUIRED
+        title CDATA #REQUIRED>
+<!ELEMENT fields (ldap|custom)*>
+<!ELEMENT ldap (#PCDATA)>
+<!ATTLIST ldap
+        attr CDATA #REQUIRED
+        format CDATA #IMPLIED>
+<!ELEMENT custom (#PCDATA)>

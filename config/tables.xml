@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE params SYSTEM "tables.dtd">
+<params>
+    <table name="main" heading="1">
+        <colomn display="1" title="0" name="avatar">
+            avatar
+        </colomn>
+        <colomn display="1" title="1" name="Full name">
+            full name
+        </colomn>
+        <colomn display="1" title="1" name="Position">
+            distinguished name
+        </colomn>
+        <colomn display="1" title="1" name="internal">
+            internal phone
+        </colomn>
+        <colomn display="1" title="1" name="mobile">
+            cell phone
+        </colomn>
+        <colomn display="1" title="1" name="auth">
+            authorisation
+        </colomn>
+</table>
+<table name="birthdays" heading="0">
+    <colomn display="1" title="1" name="Full name">
+        full name
+    </colomn>
+    <colomn display="1" title="1" name="Date of birth">
+        birth
+    </colomn>
+</table>
+<fields>
+    <ldap attr="distinguishedname">distinguished name</ldap>
+    <ldap attr="userprincipalname">user principal name</ldap>
+    <ldap attr="company">company</ldap>
+    <ldap attr="name">name</ldap>
+    <ldap attr="objectclass">object class</ldap>
+    <ldap attr="cn">cn</ldap>
+    <ldap attr="title">title</ldap>
+    <ldap attr="department">department</ldap>
+    <ldap attr="manager">manager</ldap>
+    <ldap attr="homephone">home phone</ldap>
+    <ldap attr="sn">sn</ldap>
+    <ldap attr="initials">initials</ldap>
+    <ldap attr="alexFavorites">favorite user</ldap>
+    <ldap attr="displayname">size limit page divider</ldap>
+    <ldap attr="whenCreated" format="yyyymmddhhmmss">created date</ldap>
+    <ldap attr="extensionattribute10" format="dd.mm.yy">birth</ldap>
+    <ldap attr="wwwhomepage">computer</ldap>
+    <ldap attr="displayname">display name</ldap>
+    <ldap attr="mail">mail</ldap>
+    <ldap attr="othertelephone">internal phone</ldap>
+    <ldap attr="telephonenumber">city phone</ldap>
+    <ldap attr="mobile">cell phone</ldap>
+    <ldap attr="extensionattribute13">start vacation</ldap>
+    <ldap attr="extensionattribute14">end vacation</ldap>
+    <ldap attr="thumbnailphoto">avatar</ldap>
+    <ldap attr="jpegphoto">photo</ldap>
+    <ldap attr="extensionattribute15">room</ldap>
+    <ldap attr="extensionattribute16">social</ldap>
+    <custom>full name</custom>
+    <custom>authorisation</custom>
+</fields>
+</params>
+
+
